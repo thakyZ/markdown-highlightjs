@@ -19,7 +19,7 @@
 		"url": "https://github.com/davidmwhynot/vscode-md-highlightjs-ext/issues"
 	},
 	"engines": {
-		"vscode": "^1.15.0"
+		"vscode": "^1.43.0"
 	},
 	"categories": [
 		"Other"
