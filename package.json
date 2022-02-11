@@ -51,6 +51,6 @@
 	},
 	"dependencies": {
 		"highlightjs-graphql": "^1.0.1",
-		"markdown-it-highlightjs": "^3.1.0"
+		"markdown-it-highlightjs": "^3.3.1"
 	}
 }
