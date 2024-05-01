@@ -10,7 +10,7 @@
 		"preview"
 	],
 	"icon": "logo/logox256.png",
-	"publisher": "Neko Boi Nick",
+	"publisher": "nekoboinick",
 	"license": "MIT",
 	"repository": {
 		"url": "https://github.com/thakyz/vscode-md-highlightjs-ext.git",
