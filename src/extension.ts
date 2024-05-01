@@ -1,7 +1,8 @@
-import * as vscode from 'vscode';
+import { ExtensionContext } from 'vscode';
 // import { definer } from 'highlightjs-graphql';
+import { HLJSApi } from 'highlight.js';
 
-const hljsDefineGraphQL = hljs => {
+const hljsDefineGraphQL = (hljs : HLJSApi) => {
 	return {
 		aliases: ['gql'],
 		keywords: {
@@ -57,7 +58,7 @@ const hljsDefineGraphQL = hljs => {
 	};
 };
 
-export function activate(context: vscode.ExtensionContext) {
+export function activate(context: ExtensionContext) {
 	return {
 		extendMarkdownIt(md: any) {
 			// console.log('hljsGql', definer.toString());
