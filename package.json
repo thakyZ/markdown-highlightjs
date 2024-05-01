@@ -20,7 +20,7 @@
 		"url": "https://github.com/thakyz/vscode-md-highlightjs-ext/issues"
 	},
 	"engines": {
-		"vscode": "^1.81.0"
+		"vscode": "^1.88.0"
 	},
 	"categories": [
 		"Other"
